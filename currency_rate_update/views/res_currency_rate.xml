@@ -10,7 +10,7 @@
         <field name="inherit_id" ref="base.view_currency_rate_form" />
         <field name="arch" type="xml">
             <form position="inside">
-                <chatter/>
+                <chatter />
             </form>
             <field name="rate" position="after">
                 <field name="provider_id" readonly="1" />
